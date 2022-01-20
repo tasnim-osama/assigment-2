@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+	<style type="text/css">
+
+body{background-color: lightpink;
+ background-image: url("zz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+		*{
+			box-sizing: border-box;
+		}
+
+/*for mobile phones */
+[class*="col-"]{
+	width: 100%;
+}
+
+
+
+
+
+/*for tablet*/
+@media only screen and (min-width: 600px)
+{
+.col-s-1{width:8.33%;}
+.col-s-2{width:16.66%;}
+.col-s-3{width:25%;}
+.col-s-4{width:33.33%;}
+.col-s-5{width:41.66%;}
+.col-s-6{width:50%;}
+.col-s-7{width:58.33%;}
+.col-s-8{width:66.66%;}
+.col-s-9{width:75%;}
+.col-s-10{width:83.33%;}
+.col-s-11{width:91.66%;}
+.col-s-12{width:100%;}
+}
+
+/*for disktop*/
+
+@media only screen and (min-width: 768px)
+{
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+}
+img{
+	width: 100%;
+	height:auto;
+}
+.menu ul{background: wheat;
+font-size: 18px;}
+
+
+
+[class*="col-"]{
+ float:left;
+ padding:15px;
+ 
+}
+
+.tt{font-size: 30px;}
+
+.dd{
+    font-family: sans-serif;
+    background-color: palegoldenrod;
+    background-position: right center;
+    height: 300px;
+    background-color: wheat;
+    font-size: 40px;
+    border: solid 5pix green;
+    border-radius: 5px;
+    opacity: 0.8;
+    background-image: url("yy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.nn{border:1px solid black;}
+
+p{font-size: 20px;}
+
+
+ button {
+ --glow-color: rgb(217, 176, 255);
+ --glow-spread-color: rgba(191, 123, 255, 0.781);
+ --enhanced-glow-color: rgb(231, 206, 255);
+ --btn-color: rgb(100, 61, 136);
+ border: .25em solid var(--glow-color);
+ padding: 1em 3em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+}
+
+button::after {
+ pointer-events: none;
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+button:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+button:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+
+
+ul{
+  list-style-type: square ;
+  background-color: pink;
+  padding: 20px;
+  margin: 10px;
+  color: black;
+}
+
+input[type='text']{
+  width: 400px;
+  height: 30px;
+  background-color: mistyrose;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  font-size: 30px;
+}
+ul{
+  animation-name: test;
+  animation-duration: 4s;
+
+}
+@keyframes test {
+  from{background-color: pink;}
+  to{background-color: rosybrown;}
+}
+
+	</style>
+</head>
+<body>
+
+
+<div class="row">
+<div class="col-12 col-s-12 dd">
+<p class="tt">The best choise</p>
+<h1>Serum Store</h1>
+</div>
+</div>
+
+
+
+	<div class="row">
+		<div class="col-9 col-s-9 menu" >
+			<ul>
+				<li><a href="#1" id="hh"><h4>What does face serum do for your skin?</h4></a></li>
+				<li><a href="#2" id="hh"><h4> vit C Serum</h4></a></li>
+				<li><a href="#3" id="hh"><h4>Offers</h4></a></li>
+			</ul>
+			<p>
+				
+<a name="1"><h1>what does face serum do for your skin?</h1></a>
+Put simply, Dale describes serums as “medicine” for your skin. And everyone has their own way of breaking down their power: “Serums deliver more concentrated versions of active ingredients to the skin,” explains Dr. Julius Few, M.D., a plastic surgeon and founder of The Few Institute in Chicago and Los Angeles. “The purpose of the active ingredient can vary, from hydrating to skin brightening to wrinkle-reducing.” A serum’s thin, concentrated formula allows it to treat skin concerns in a more targeted way than other products in a daily routine. “Serums can make the skin look and feel better with just a small amount—a little goes a long way,” says Dr. Mona Gohara, M.D., associate clinical professor of Dermatology at Yale School of Medicine. “They’re a worthwhile addition and I often recommend them to my patients.”	
+			</p>
+		</div>
+		
+
+<div class="col-3 col-s-3 ">
+<img src="22.jpg" alt="img not found" width="200px" height="200px">
+</div>
+
+</div>
+
+
+<div class="row">
+<div class="col-9 col-s-9">
+		<p>
+			Compared to even the best moisturizer, serums are supercharged, and “meant to deliver their specific skin-care benefit straight to the skin in a more potent, effective dose than a moisturizer,” according to Charlene Valledor, cosmetic chemist and president of SOS Beauty. And for forward-thinking brands, new formulations offer an opportunity to swap out other products. “Our serum, for instance, is multi-use to allow for our community to choose how it fits into their skin-care routines,” says Stephanie Lee, founder of skin-care brand SelfMade, which is named in WGSN’s 2022-23 Trend Report. “It can be used as a night cream; it can be used as a primer for your daily makeup routine, and it can be used as a daily moisturizer for your skin.” Lee says it’s up to the consumer to determine the use.
+		</p>
+		</div>
+
+		<div class="col-3 col-s-3 ">
+		<img src="11.webp" alt="img not found" width="100px" height="100px">
+	</div>
+
+	</div>
+
+
+<div class="row">
+	<div class="col-9">
+<p><a name="2"><h1>vit C serum</h1></a>
+	Adding a vitamin C serum to your daily routine will improve your skin’s glow while reducing the damaging effects of the environment and the sun. The longer you use a vitamin C serum consistently, the more you’ll be able to see the difference it makes. As always, discontinue use if the product irritates your skin.
+</p>
+</div>
+<div class="col-3">
+<img src="R.png" alt="img not found" width="200px" height="200px">
+</div>
+</div>
+
+
+<div class="row ">
+<div class="col-3 col-s-3 nn">
+	<p><a name="3"><h1>offers</h1></a></p>
+<img src="33.jpg" alt="img not found" width="200px" height="200px">
+<p><h4> -<br> 22$</p>
+</div>
+
+<div class="col-3 col-s-3 nn">
+<img src="Tahnyc Hydration Veil Serum Water 26.jpg" alt="img not found" width="200px" height="200px">
+<p><h4>Tahnyc Hydration Veil Serum Water<br> 26$</p>
+</div>
+
+<div class="col-3 col-s-3 nn">
+<img src="Winky Lux Orchid Gelée Serum 28.webp" alt="img not found" width="200px" height="200px">
+<p><h4>Winky Lux Orchid Gelée Serum<br> 28$</p>
+</div>
+
+<div class="col-3 col-s-3 nn">
+<img src="e.jpg" alt="img not found" width="200px" height="200px">
+<p><h4> -<br> 33$</p>
+</div>
+</div>
+
+
+<div class="row">
+	<div class="col-7 col-s-6 menu" >
+
+<form >
+  <label for="ty">enter your name</label><br>
+  <input type="text" name="ty"><br>
+   <label for="we">enter your country</label><br>
+  <input type="text" name="we">
+</form>
+</div>
+
+<div class="col-3 col-s-3 menu" >
+	<p>Contact us</p>
+<a href="https://www.facebook.com/"><button> facebook
+</button></a>
+</div>
+<div class="col-9 col-s-6 menu" >
+<textarea placeholder="write your notes" rows="20" cols="200"></textarea>
+</div>
+</div>
+
+
+</body>
+</html>
